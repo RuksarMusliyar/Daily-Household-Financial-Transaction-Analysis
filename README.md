@@ -1,2 +1,2 @@
 # Daily-Household-Financial-Transaction-Analysis
-Power BI project analyzing daily financial transactions with KPIs and dashboard insights.
+End-to-end Power BI project analyzing household income and expenses using data modeling, DAX, and KPI dashboards.
