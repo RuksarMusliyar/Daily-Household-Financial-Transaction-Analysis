@@ -8,11 +8,8 @@ The objective is to transform raw transactional data into meaningful insights th
 ---
 
 ## 🎯 Project Objectives
-- Analyze daily income and expense patterns
-- Identify major spending categories
-- Track overall cash inflow and outflow
-- Develop KPI-driven financial dashboard
-- Enable interactive filtering for dynamic analysis
+- Analyze daily financial transactions to identify trends, patterns, and insights.
+- Generate a comprehensive report with visualizations.
 
 ---
 
@@ -35,6 +32,12 @@ The dataset contains daily household transaction records including:
 - Data Modeling
 - DAX (Data Analysis Expressions)
 - KPI Cards & Interactive Visualizations
+
+---
+
+## 🧩 Data Modeling Enhancements
+- Created a Year Month calculated column for monthly trend analysis
+- Implemented a Year Month Sort column to ensure correct chronological order in visuals
 
 ---
 
