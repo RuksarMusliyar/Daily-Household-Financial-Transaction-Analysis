@@ -92,4 +92,5 @@ This project demonstrates the practical application of business intelligence tec
 
 ## 📷 Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](Dashboard_preview.png)
+
