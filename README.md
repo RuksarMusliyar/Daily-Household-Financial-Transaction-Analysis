@@ -88,3 +88,8 @@ The analysis identified a **Negative Net Balance** indicating that total outflow
 ## 📌 Conclusion
 This project demonstrates the practical application of business intelligence techniques in financial data analysis and highlights how structured reporting can support better financial decision-making.
 
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard Preview](dashboard-preview.png)
