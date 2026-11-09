@@ -77,6 +77,24 @@ Calculates the remaining balance by subtracting total outflow from total income.
 
 ---
 
+## 💡 Net Balance Calculation and Transfer Treatment
+
+The Net Balance is calculated by subtracting Total Outflow from Total Income.
+
+**Net Balance = Total Income - Total Outflow**
+
+Total Outflow includes both Total Expense and Transfer-Out transactions.
+
+- Income includes only transactions classified as Income.
+- Expense includes only transactions classified as Expense.
+- Transfer-Out transactions are included in Total Outflow but are not counted as expenses.
+
+The dashboard shows a negative Net Balance of approximately **-₹685,774**. This indicates that the combined outflow, including expenses and outgoing transfers, exceeds the total income by ₹685,774.
+
+Therefore, the negative balance represents the overall difference between income and outflow, not expenses alone.
+
+---
+
 ## 📊 Key KPIs Developed
 - Total Income
 - Total Expense
