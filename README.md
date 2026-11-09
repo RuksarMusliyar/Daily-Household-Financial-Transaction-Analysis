@@ -74,6 +74,7 @@ Calculates the total amount of money going out, including expenses and outgoing 
 `Net Balance = [Total Income] - [Total Outflow]`
 
 Calculates the remaining balance by subtracting total outflow from total income.
+
 ---
 
 ## 📊 Key KPIs Developed
