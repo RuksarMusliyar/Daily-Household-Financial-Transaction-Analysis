@@ -42,12 +42,38 @@ The dataset contains daily household transaction records including:
 ---
 
 ## 🧮 DAX Measures Created
-- Total Income
-- Total Expense
-- Total Outflow
-- Net Balance
-- Total Amount
 
+The following DAX measures were created in Power BI to calculate and analyse key financial metrics.
+
+### 1. Total Amount
+
+`Total Amount = SUM('Daily Household Transactions'[Amount])`
+
+Calculates the total amount of all financial transactions by adding the values in the Amount column.
+
+### 2. Total Income
+
+`Total Income = CALCULATE(SUM('Daily Household Transactions'[Amount]), 'Daily Household Transactions'[Income/Expense] = "Income")`
+
+Calculates the total amount received from all income transactions.
+
+### 3. Total Expense
+
+`Total Expense = CALCULATE(SUM('Daily Household Transactions'[Amount]), 'Daily Household Transactions'[Income/Expense] = "Expense")`
+
+Calculates the total amount spent on expense transactions.
+
+### 4. Total Outflow
+
+`Total Outflow = CALCULATE(SUM('Daily Household Transactions'[Amount]), 'Daily Household Transactions'[Income/Expense] IN {"Expense", "Transfer-Out"})`
+
+Calculates the total amount of money going out, including expenses and outgoing transfers.
+
+### 5. Net Balance
+
+`Net Balance = [Total Income] - [Total Outflow]`
+
+Calculates the remaining balance by subtracting total outflow from total income.
 ---
 
 ## 📊 Key KPIs Developed
